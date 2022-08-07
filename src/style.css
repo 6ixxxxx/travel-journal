@@ -1,0 +1,79 @@
+body {
+  margin: auto;
+  font-family: Inter, Helvetica, sans-serif ; 
+  }
+.Navbar{
+    background-color: #F55A5A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+}
+.Navbar--img{
+    width: 24px;
+    height: 24px;
+    padding: 7px;
+}
+.card{
+    margin: 20px;
+    margin-left: 40px;
+    display:flex;
+    width: 550px;
+    }
+.card--img{
+width: 125px;
+height: 168px;
+border-radius: 5px;
+}
+.card--info{    
+    padding-top: 0px;
+    padding-left: 10px;
+}
+.infoBar{
+    display:flex;  
+    font-size: 10.24px;  
+    align-items: center;
+    margin-top: 0px;
+}
+.infobar--img{
+    height: 9.5px;
+    margin-right: 4px;
+}
+.infobar--Title{
+    margin-right: 12px;
+    height: 10px;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+.infobar--map{
+    width: 106px;
+    height: 13px;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+hr{
+    width: 80%;
+    border: 1px solid #F5F5F5;
+}
+.title{
+margin: auto;    
+}
+.date{
+    width: 319px;
+    height: 11px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #2B283A;
+}
+.description{
+    width: 326px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #2B283A;
+}
